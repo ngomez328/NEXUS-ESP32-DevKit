@@ -1,0 +1,16 @@
+# KiCad Lock Files
+*.lck
+
+# KiCad Backup Files
+*-bak
+*.bak
+
+# Autosave
+*.autosave
+
+# History
+.history/
+
+# System
+Thumbs.db
+.DS_Store
