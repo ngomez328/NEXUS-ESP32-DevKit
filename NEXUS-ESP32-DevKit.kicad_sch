@@ -2351,10 +2351,22 @@
 		)
 	)
 	(junction
+		(at 138.43 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e244afa-a385-4deb-b460-1ee9eb9d8781")
+	)
+	(junction
 		(at 54.61 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f4501db-c8be-4991-808e-c996db642f29")
+	)
+	(junction
+		(at 138.43 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1939e2b-16f3-4f46-b138-8024bec2a6c8")
 	)
 	(junction
 		(at 90.17 64.77)
@@ -2382,6 +2394,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 50.8) (xy 146.05 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3c6596-c1fc-4f68-9da4-4777c8c2739f")
+	)
+	(wire
+		(pts
 			(xy 101.6 50.8) (xy 101.6 53.34)
 		)
 		(stroke
@@ -2399,6 +2421,16 @@
 			(type default)
 		)
 		(uuid "3814f9cd-8335-43e3-bfb0-df3cf29c34e4")
+	)
+	(wire
+		(pts
+			(xy 130.81 62.23) (xy 138.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38637024-26d4-41b4-923c-d8ef7a64e4da")
 	)
 	(wire
 		(pts
@@ -2432,6 +2464,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 62.23) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526ac8b4-008e-4bf2-9684-05fc19c65826")
+	)
+	(wire
+		(pts
 			(xy 54.61 66.04) (xy 54.61 68.58)
 		)
 		(stroke
@@ -2449,6 +2491,26 @@
 			(type default)
 		)
 		(uuid "64bf4412-b2c0-43d0-82bc-43635cc6bde7")
+	)
+	(wire
+		(pts
+			(xy 130.81 62.23) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654a55f4-b637-4954-b1bc-9183159442fe")
+	)
+	(wire
+		(pts
+			(xy 130.81 50.8) (xy 130.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850593e4-3508-4802-ab30-8e22e5b0da5c")
 	)
 	(wire
 		(pts
@@ -2502,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 137.16) (xy 137.16 139.7)
+			(xy 138.43 137.16) (xy 138.43 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2599,6 +2661,36 @@
 			(type default)
 		)
 		(uuid "f5117847-f9eb-431f-9b93-0f7433abe1d5")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 138.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f598e2a9-ae3b-4d75-8f52-23b52d616e89")
+	)
+	(wire
+		(pts
+			(xy 138.43 50.8) (xy 146.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9416141-8401-4331-9300-51ff02e6fbf8")
+	)
+	(wire
+		(pts
+			(xy 138.43 62.23) (xy 146.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfbc7ce-4c5e-434e-8dec-ef7f42d78e5a")
 	)
 	(global_label "VBUS"
 		(shape input)
@@ -2856,7 +2948,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-WROOM-32E")
-		(at 137.16 101.6 0)
+		(at 138.43 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2867,7 +2959,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ac47a41-1b28-4e08-9efd-99c1ae9299ad")
 		(property "Reference" "U1"
-			(at 139.3033 63.5 0)
+			(at 140.5733 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2879,7 +2971,7 @@
 			)
 		)
 		(property "Value" "ESP32-WROOM-32E"
-			(at 139.3033 66.04 0)
+			(at 140.5733 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2890,7 +2982,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-WROOM-32E"
-			(at 153.67 135.89 0)
+			(at 154.94 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2901,7 +2993,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
-			(at 137.16 101.6 0)
+			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2912,7 +3004,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 137.16 101.6 0)
+			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3041,7 +3133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 139.7 0)
+		(at 138.43 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3052,7 +3144,7 @@
 		(fields_autoplaced yes)
 		(uuid "42680fdf-aca1-445b-8e91-99706d87dde8")
 		(property "Reference" "#PWR02"
-			(at 137.16 146.05 0)
+			(at 138.43 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3063,7 +3155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 144.78 0)
+			(at 138.43 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3073,7 +3165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 139.7 0)
+			(at 138.43 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +3176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 139.7 0)
+			(at 138.43 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3095,7 +3187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 139.7 0)
+			(at 138.43 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3119,7 +3211,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 58.42 0)
+		(at 146.05 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3130,7 +3222,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cd33b8c-4f03-4e24-8631-4d3c3055cb3f")
 		(property "Reference" "C2"
-			(at 149.86 57.1499 0)
+			(at 149.86 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3141,7 +3233,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 149.86 59.6899 0)
+			(at 149.86 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3152,7 +3244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.0152 62.23 0)
+			(at 147.0152 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +3255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 58.42 0)
+			(at 146.05 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3174,7 +3266,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 58.42 0)
+			(at 146.05 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3970,7 +4062,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 58.42 0)
+		(at 130.81 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3981,7 +4073,7 @@
 		(fields_autoplaced yes)
 		(uuid "e772f695-a609-4997-ab2e-2d8b92a0e94f")
 		(property "Reference" "C1"
-			(at 134.62 57.1499 0)
+			(at 134.62 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3992,7 +4084,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 134.62 59.6899 0)
+			(at 134.62 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4003,7 +4095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.7752 62.23 0)
+			(at 131.7752 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4014,7 +4106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 58.42 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4025,7 +4117,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 58.42 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
