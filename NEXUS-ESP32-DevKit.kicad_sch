@@ -2351,6 +2351,12 @@
 		)
 	)
 	(junction
+		(at 115.57 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed08200-e3ab-4b98-92a9-5002e42422e2")
+	)
+	(junction
 		(at 138.43 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2361,12 +2367,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f4501db-c8be-4991-808e-c996db642f29")
-	)
-	(junction
-		(at 138.43 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1939e2b-16f3-4f46-b138-8024bec2a6c8")
 	)
 	(junction
 		(at 90.17 64.77)
@@ -2424,13 +2424,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 62.23) (xy 138.43 62.23)
+			(xy 101.6 71.12) (xy 104.14 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38637024-26d4-41b4-923c-d8ef7a64e4da")
+		(uuid "3875872a-575c-4b77-bfe5-437842fc2048")
 	)
 	(wire
 		(pts
@@ -2504,6 +2504,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 50.8) (xy 138.43 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a347b1-de78-4047-a6e1-a81e7efb4007")
+	)
+	(wire
+		(pts
+			(xy 115.57 71.12) (xy 123.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a68514-1e8c-47c4-8971-0618548166df")
+	)
+	(wire
+		(pts
 			(xy 130.81 50.8) (xy 130.81 53.34)
 		)
 		(stroke
@@ -2511,6 +2531,16 @@
 			(type default)
 		)
 		(uuid "850593e4-3508-4802-ab30-8e22e5b0da5c")
+	)
+	(wire
+		(pts
+			(xy 115.57 71.12) (xy 115.57 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85684656-bb78-4d69-84af-9efda199e42d")
 	)
 	(wire
 		(pts
@@ -2634,6 +2664,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 82.55) (xy 115.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ca9fbf-4322-4b37-8b34-a887b428183d")
+	)
+	(wire
+		(pts
 			(xy 43.18 55.88) (xy 59.69 55.88)
 		)
 		(stroke
@@ -2664,16 +2704,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 66.04) (xy 138.43 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f598e2a9-ae3b-4d75-8f52-23b52d616e89")
-	)
-	(wire
-		(pts
 			(xy 138.43 50.8) (xy 146.05 50.8)
 		)
 		(stroke
@@ -2684,13 +2714,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 62.23) (xy 146.05 62.23)
+			(xy 111.76 71.12) (xy 115.57 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcfbc7ce-4c5e-434e-8dec-ef7f42d78e5a")
+		(uuid "f9c51311-7302-43e3-a711-3d7c9e87adab")
 	)
 	(global_label "VBUS"
 		(shape input)
@@ -2785,6 +2815,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 101.6 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5ec2698-5cb5-47fb-b78e-f505655959c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.5348 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3132,6 +3186,167 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 115.57 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c68e5bb-569d-44da-9334-a8e60a9ac7ae")
+		(property "Reference" "C5"
+			(at 119.38 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 119.38 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.5352 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "511c0c79-7efa-4702-9b1a-7b5a0b752359")
+		)
+		(pin "1"
+			(uuid "1ea4f964-e44d-4ef3-9247-5f2784fbd524")
+		)
+		(instances
+			(project "NEXUS-ESP32-DevKit"
+				(path "/f40141c0-6e2e-4cb1-a878-36582100a8c1"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "266fa4c6-61cf-4cf5-86ff-ae33d649378f")
+		(property "Reference" "#PWR07"
+			(at 124.46 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14138a7f-7183-47cf-80bc-30e1943675c1")
+		)
+		(instances
+			(project "NEXUS-ESP32-DevKit"
+				(path "/f40141c0-6e2e-4cb1-a878-36582100a8c1"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 139.7 0)
 		(unit 1)
@@ -3232,7 +3447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 149.86 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,6 +4069,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b863d9f1-d8d7-454f-8421-b099078f5c20")
+		(property "Reference" "#PWR06"
+			(at 115.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e653ff85-a090-48b5-bfe6-48658da839d5")
+		)
+		(instances
+			(project "NEXUS-ESP32-DevKit"
+				(path "/f40141c0-6e2e-4cb1-a878-36582100a8c1"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 50.8 62.23 0)
 		(unit 1)
@@ -4061,6 +4354,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 107.95 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfbddb99-09db-406f-8f0c-40f3ad179ac7")
+		(property "Reference" "R3"
+			(at 107.95 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 72.898 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0c213bc-1429-407a-8fe9-b763be9ca7fe")
+		)
+		(pin "2"
+			(uuid "825bed39-9b72-40af-92a4-3a29e48983d5")
+		)
+		(instances
+			(project "NEXUS-ESP32-DevKit"
+				(path "/f40141c0-6e2e-4cb1-a878-36582100a8c1"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e10268c0-4164-43e7-ad4c-0f3576aa99c6")
+		(property "Reference" "#PWR08"
+			(at 152.4 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27a12e91-758f-487c-bc74-f1f7b857015d")
+		)
+		(instances
+			(project "NEXUS-ESP32-DevKit"
+				(path "/f40141c0-6e2e-4cb1-a878-36582100a8c1"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 130.81 57.15 0)
 		(unit 1)
@@ -4083,7 +4535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 134.62 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
