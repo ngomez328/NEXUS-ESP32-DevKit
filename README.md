@@ -1,6 +1,6 @@
 # NEXUS-ESP32-DevKit
 
-![Render 3D de la placa]!(image.png)
+![Render 3D de la placa](image.png)
 
 Placa de desarrollo basada en el módulo **ESP32-WROOM-32E**, diseñada desde cero en **KiCad 10** como proyecto de ingeniería de hardware. El objetivo no fue copiar una placa existente, sino recorrer el flujo completo de diseño profesional —desde el esquemático hasta los archivos de fabricación— documentando y justificando cada decisión técnica.
 
@@ -48,7 +48,7 @@ NEXUS-ESP32-DevKit/
 
 | Esquemático | Layout | Render 3D |
 |---|---|---|
-| ![Esquemático](image-2.png) | ![3D](image-1.png) | ![3D]((image-3.png)) |
+| ![Esquemático](image-2.png) | ![3D](image-1.png) | ![Layout]((image-3.png)) |
 
 ## Herramientas
 
