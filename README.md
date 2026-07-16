@@ -48,7 +48,7 @@ NEXUS-ESP32-DevKit/
 
 | Esquemático | Layout | Render 3D |
 |---|---|---|
-| ![Esquemático](image-2.png) | ![3D](image-1.png) | ![Layout]((image-3.png)) |
+| ![Esquemático](image-2.png) | ![3D](image-1.png) | ![Layout](image-3.png) |
 
 ## Herramientas
 
